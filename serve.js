@@ -18,7 +18,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 app.listen(5000, () => {
-  console.log('Servidor Iniciado!');
+  console.log('Servidor Iniciado! ');
 });
 
 app.post("/api/enviar-email", (req, res) => {
