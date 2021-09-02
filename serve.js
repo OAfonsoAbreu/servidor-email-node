@@ -17,7 +17,7 @@ var mailOptions;
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log('Servidor Iniciado! ');
 });
 
