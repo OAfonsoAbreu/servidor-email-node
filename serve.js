@@ -17,7 +17,7 @@ var mailOptions;
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
-app.listen(3100, () => {
+app.listen(8080, () => {
   console.log('Servidor Iniciado!');
 });
 
